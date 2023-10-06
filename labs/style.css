@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Ibarra+Real+Nova:ital@0;1&family=Lato:ital@1&family=Square+Peg&display=swap');
+
+header h1{
+    font-family: Lobster,Georgia, 'Times New Roman', serif;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', serif;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+}
+
+#photo img{
+width: 50%;
+height: 600px;
+float: right;
+margin-top: 40px;
+position: relative;
+}
+
+section {
+    text-align: center;
+    border: solid 1px #999999;
+    border-radius: 30px;
+    padding:100px;
+    margin:200px;
+    width:30%;
+    box-shadow: 1px 2px 3px 1px rgba(24, 149, 202, 0.5);
+    
+}
+section ul{
+    margin-top: 60px;
+}
+
+section ul li{
+    margin: 15px;
+    padding: 15px;
+    list-style: none;
+    background-color:#8BDFF4;
+    font-style: italic;
+    font-size: larger;
+    border-radius: 40px;
+    list-style-type: none;    
+}
+section ul li:hover{
+   background-color:#b39e12;   
+}
+section ul li a{
+    text-decoration: none;
+}
+section ul li a:hover{
+   color: black;
+}
+section h3{
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-family: Lobster,Georgia, 'Times New Roman', serif;
+    font-size: 35px;
+}
+footer{
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    padding: 20px;
+    color:#1D84AF;
+
+
+}
+footer p{
+    margin-top: 30px;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+
+}
+footer a,a:hover{
+    text-decoration: none;
+    color:#1D84AF;
+}
+
